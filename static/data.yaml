@@ -1,0 +1,22 @@
+name: Annie Njanja
+bio: A data journalist, who has covered health, economics and technology beats for nearly 10 years. 
+links:
+  - target: mailto:akn2129@columbia.edu
+    text: 📧 email
+  - target: https://annienjanja.com
+    text: 🏠 homepage
+  - target: https://twitter.com/AnnieNjanja
+    text: '@AnnieNjanja'
+pages:
+  - type: gdoc
+    title: 2020 Homicides in DC
+    slug: first-project
+    url: https://docs.google.com/document/d/1yq40V_wkscwwVxymzH3ysfNBukCR7AxZYBXxI-qxQvs/edit
+  - type: html
+    title: New York
+    slug: second-project
+    filepath: index.html
+  - type: html
+    title: New York reopening
+    slug: third-project
+    filepath: scrolly.html
