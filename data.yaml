@@ -18,9 +18,9 @@ pages:
     filepath: dba.html
   - type: raw
     title: New York vaccines
-    slug: /scroll/
+    slug: /scroll
   - type: raw
     title: Schools in NYC
-    slug: /newsapp/
+    slug: /newsapp
 
 
