@@ -15,13 +15,12 @@ pages:
   - type: html
     title: New York
     slug: second-project
-    filepath: index.html
-  - type: html
-    title: New York NCDs
-    slug: third-project
-    filepath: index.html
-  - type: html
-    title: New York reopening
-    slug: third-project
-    filepath: index.html
+    filepath: dba.html
+  - type: raw
+    title: New York vaccines
+    slug: /scroll/
+  - type: raw
+    title: Schools in NYC
+    slug: /newsapp/
+
 
