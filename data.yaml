@@ -21,6 +21,6 @@ pages:
     slug: /scroll
   - type: raw
     title: Schools in NYC
-    slug: /newsapp
+    slug: /news-app
 
 
