@@ -17,6 +17,11 @@ pages:
     slug: second-project
     filepath: index.html
   - type: html
+    title: New York NCDs
+    slug: third-project
+    filepath: index.html
+  - type: html
     title: New York reopening
     slug: third-project
-    filepath: scrolly.html
+    filepath: index.html
+
