@@ -21,7 +21,7 @@ pages:
     slug: /scroll
   - type: raw
     title: Schools in NYC
-    slug: /news-app
+    slug: /newsapp
   - type: raw
     title: Kenya's Debt Burden
     slug: /DebtBurdenofKenya
