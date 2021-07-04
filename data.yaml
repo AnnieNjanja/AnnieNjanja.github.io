@@ -25,9 +25,10 @@ pages:
   - type: raw
     title: Kenya's Debt Burden
     slug: /DebtBurdenofKenya
-  - type: raw
+  - type: raw 
     title: Bitter-sweet moment for Kenya
     slug: /Sugarcaneproject
+    filepath: index.html
 
 
 
