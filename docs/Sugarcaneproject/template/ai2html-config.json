@@ -1,0 +1,37 @@
+{
+    "fonts":  [
+        {
+            "aifont": "Impact",
+            "family": "Impact",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "Acme",
+            "family": "sans-serif",
+            "weight": "400",
+            "style": ""
+        },
+        {
+            "aifont": "HelveticaNeue-Bold",
+            "family": "Helvetica Neue",
+            "weight": "700",
+            "style": ""
+        },
+        {
+            "aifont": "Helvetica-Bold",
+            "family": "Helvetica",
+            "weight": "700",
+            "style": ""
+        },
+        {   
+
+            "aifont": "HelveticaNeue",
+            "family": "Heltivica Neue",
+            "weight": "400",
+            "style": ""
+
+        }
+
+    ]
+}
