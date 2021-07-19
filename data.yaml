@@ -11,17 +11,17 @@ pages:
   - type: raw
     title: Kenya's Debt Burden
     slug: /DebtBurdenofKenya
-  - type: raw
-    title: Poverty rate in California's Alpine County grows by 7 percent
+  - type: html
+    title: A 7 percent rise in poverty rate in Alpine County, Ca.
     slug: /Cali 
-    filepath: annie.html
+    filepath: index.html
   - type: gdoc
     title: 2020 Homicides in DC
-    slug: first-project
+    slug: /first-project
     url: https://docs.google.com/document/d/1yq40V_wkscwwVxymzH3ysfNBukCR7AxZYBXxI-qxQvs/edit
   - type: html
     title: New York
-    slug: second-project
+    slug: /second-project
     filepath: dba.html
   - type: raw
     title: Schools in NYC
