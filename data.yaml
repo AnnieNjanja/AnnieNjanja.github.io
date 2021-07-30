@@ -33,6 +33,11 @@ pages:
   - type: raw
     title: New York vaccines
     slug: /scroll  
+  - type: html
+    title: Historical data; Pacific region most prone to earthquakes
+    slug: /Earthquakes
+    filepath: /index.html 
+
 
 
 
