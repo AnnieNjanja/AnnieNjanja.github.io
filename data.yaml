@@ -36,7 +36,7 @@ pages:
   - type: html
     title: Historical data; Pacific region most prone to earthquakes
     slug: /Earthquakes
-    filepath: /index.html 
+    filepath: index.html 
 
 
 

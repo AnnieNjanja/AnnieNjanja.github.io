@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Earthquakes over the last decade</title>
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<!-- Load color scale -->
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+<div>
+    <h1>Pacific region prone to earthquakes</h1>
+    <p>By Annie Njanja</p>
+    <p>Historical data shows that the Pacific region is highly susceptible to earthquakes, putting millions of people living in Asia and Latin America at the greater risk.</p>
+    <p>Nearly 750,000 people have lost their lives between 1998 and 2017, which is more than half of the lives lost due to natural disasters.</p>
+    <p>Some 125 million others were also affected- either injured, made homeless, displaced or affected at the the peak of these events, according to World Health Organization.</p>
+    <p>Earthquakes are regarded dangerous due to their sudden occurence, which is often violent leaving behind a trail of death and desctruction.</p> 
+    
+</div>
+
+<body>
+    <svg id="container" height="300" width="500">
+        <g id="body" transform="translate(0,0)"></g>
+    </svg>
+</body>
+<script src="d3.js"></script>
+
+
+
+
+<script>
+    let body = d3.select("#body")
+    
+    Promise.all([
+        d3.csv("data.csv"),
+        d3.json("countries.geo.json")
+    ]).then(showData)
+
+
+    function showData(datasources) {
+        let bodyHeight = 400
+        let bodyWidth = 400
+
+        let data = datasources[0]
+        let mapInfo = datasources[1]
+        
+        var projection = 
+            d3.geoMercator()
+                .scale(70)
+                .translate([bodyWidth / 2, bodyHeight / 2])
+
+
+        var path = d3.geoPath()
+            .projection(projection);
+
+        body.selectAll("path").data(mapInfo.features)
+            .enter().append("path")
+            .attr("d", d => path(d))
+            .attr("stroke", "#999")
+            .attr("fill", "#eee")
+
+        body.selectAll("circle")
+            .data(data)
+            .enter()
+            .append("circle")
+            .attr("r", 2)
+            .attr("fill", "#990066")
+            .style("opacity", 0.2)
+            .attr("cx", d => projection([+d.Longitude, +d.Latitude])[0])
+            .attr("cy", d => projection([+d.Longitude, +d.Latitude])[1])
+
+
+    }
+
+
+</script>
+
+</html>
+<div>
+    <i>Done with the help of a tutorial</i>
+</div>
