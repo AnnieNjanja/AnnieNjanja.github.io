@@ -19,25 +19,28 @@ pages:
     title: 2020 Homicides in DC
     slug: /first-project
     url: https://docs.google.com/document/d/1yq40V_wkscwwVxymzH3ysfNBukCR7AxZYBXxI-qxQvs/edit
-  - type: html
-    title: New York
-    slug: /second-project
-    filepath: dba.html
   - type: raw
     title: Schools in NYC
-    slug: /newsapp
+    slug: /newsapp  
+  - type: html
+    title: Historical data; Pacific region most prone to earthquakes
+    slug: /Earthquakes
+    filepath: index.html 
+  - type: html
+    title: Inequality at birth 
+    slug: /LifeExpectancy
+    filepath: index.html
   - type: raw 
     title: Bitter-sweet moment for Kenya
     slug: /Sugarcaneproject
     filepath: index.html
   - type: raw
     title: New York vaccines
-    slug: /scroll  
+    slug: /scroll
   - type: html
-    title: Historical data; Pacific region most prone to earthquakes
-    slug: /Earthquakes
-    filepath: index.html 
-
+    title: New York
+    slug: /second-project
+    filepath: dba.html  
 
 
 
