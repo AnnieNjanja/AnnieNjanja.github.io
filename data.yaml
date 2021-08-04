@@ -30,6 +30,10 @@ pages:
     title: Inequality at birth 
     slug: /LifeExpectancy
     filepath: index.html
+  - type: html
+    title: Coal sites in Pennyslyvania 
+    slug: /Pennyslyvania 
+    filepath: index.html 
   - type: raw 
     title: Bitter-sweet moment for Kenya
     slug: /Sugarcaneproject
