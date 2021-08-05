@@ -31,7 +31,7 @@ pages:
     slug: /LifeExpectancy
     filepath: index.html
   - type: html
-    title: Coal sites in Pennyslyvania 
+    title: Coal sites in Pennslyvania 
     slug: /Pennsylvania 
     filepath: index.html 
   - type: raw 
